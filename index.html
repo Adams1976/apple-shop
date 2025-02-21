@@ -2,20 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./media.css">
-  <title>Magazin
-  </title>
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./media.css" />
+  <title>Magazin</title>
 </head>
 
 <body>
   <div class="header">
     <div class="container-fluid gx-0">
-
       <!-- навигационная панель -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -44,50 +42,46 @@
               <li class="nav-item">
                 <a class="btn-navbar" href="#">Купить</a>
               </li>
-
             </ul>
           </div>
         </div>
       </nav>
       <!-- конец навигационной панели -->
 
-
       <!-- главная секция -->
       <div class="container">
         <div class="container-home">
           <div class="row content-home2">
             <div class="col-lg-7 col-md-5">
-
               <div class="box-container">
-                <img width="100%" src="./1.png" class="img-home" alt="aplle iphone">
+                <img src="./1.png" class="img-home" alt="aplle iphone" />
               </div>
-
             </div>
             <div class="col-lg-5 col-md-7">
               <div class="box-container2">
-                <h1 class="home-heading">Айфон 16 pro с самой
+                <h1 class="home-heading">
+                  Айфон 16 pro с самой
                   <span class="home-span">Продвинутой Системой</span>
                 </h1>
-                <p class="para-home">Модель iPhone 16 Pro отличается не только внешним премиальным видом, но и
-                  внутренней начинкой. За эффективную работу отвечает усовершенствованный процессор А18 Pro, а блок
-                  камер легко справится с любыми, в том числе и профессиональными задачами</p>
+                <p class="para-home">
+                  Модель iPhone 16 Pro отличается не только внешним
+                  премиальным видом, но и внутренней начинкой. За эффективную
+                  работу отвечает усовершенствованный процессор А18 Pro, а
+                  блок камер легко справится с любыми, в том числе и
+                  профессиональными задачами
+                </p>
                 <div class="btn-home">
                   <a href="#" class="home-links">Купить Сейчас</a>
                   <a href="#" class="home-links btn-2">Посмотреть</a>
-
                 </div>
-
-
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <!-- конец главной секции  -->
-
 
   <!-- секция с инфо -->
   <div class="container">
@@ -97,216 +91,486 @@
           <div class="col-lg-6">
             <div class="container-about">
               <h3 class="heading-about">О Магазине</h3>
-              <p class="para-about"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod non itaque
-                assumenda, nemo architecto quos.</p>
-              <p class="para-about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, aliquid reprehenderit
-                in repellat ducimus deserunt!</p>
-              <a href="#" class="link-about"> <span class="span-about"></span>Подробнее
+              <p class="para-about">
+                aplle-095 — это не просто магазин, но и центр обслуживания, место, куда вы можете прийти, чтобы посоветоваться, выбрать подходящее устройство Apple, где вас научат пользоваться им, дадут советы по эксплуатации и покажут возможности того, что вы приобрели
+              </p>
+              <p class="para-about">
+                Мы продаем телефоны, часы, наушники и другие товары от aplle.У нас, продается только официальные версии с легальной русской прошивкой, что избавляет клиентов от множества проблем
+                Вы можете прийти, чтобы лично ознакомиться с тем или иным устройством. У нас предусмотрена и возможность заказа через интернет. Как покупать — выбор за вами!
+              </p>
+              <a href="#" class="link-about">
+                <span class="span-about"></span>Подробнее
                 <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
           </div>
           <div class="col-lg-6">
-            <img src="./Apple_delivers-apple-watch-series-6_09152020_jpg_o-edited-free (carve.photos).png"
-              class="img-about" alt="img">
+            <img src="./4.png"
+              class="img-about" alt="img" />
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- конец секции с инфо -->
-   
 
   <!-- каталог товара -->
-<section class="product-category">
-  <h2 class="heading-product">Каталог  Товара</h2>
-  <div class="container-fluid">
+  <section class="product-category">
+    <h2 class="heading-product">Каталог Товаров</h2>
+    <div class="container-fluid">
+      <div id="carouselExample" class="carousel slide">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./2.png" class="card-img-top img-card" alt="iphone"  />
+                    <div class="card-body">
+                      <h5 class="card-title"> Apple Watch Ultra 2</h5>
+                      <p class="card-text">
+                        Большие и функциональные часы от Apple стали ещё больше и ещё совершеннее. Новый процессор и новые возможности watchOS, яркий экран 3000 нит, который отлично видно даже днём и абсолютно все возможности Apple Watch Series 9, но с большим дисплеем и повышенной устойчивостью к суровым условиям – всё это Apple Watch Ultra 2.
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
 
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./7.jpeg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">AirPods Pro 2</h5>
+                      <p class="card-text">
+                        Apple наделил наушники непревзойденным дизайном, стильным белым корпусом и эргономичной конструкцией.Синхронизация с любым устройством Apple осуществляется посредством технологии bluetooth. При извлечении наушников из кейса, они мгновенно подключаются к смартфону и готовы к работы. Благодаря новому чипу H2, звук в Airpods получил более чистое, яркое и глубокое звучание.
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./5.jpg" class="card-img img-card"  alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Apple Watch SE</h5>
+                      <p class="card-text">
+                        При цене в полтора раза ниже, чем у Watch Series 6, эта модель дает пользователю почти тот же набор возможностей, за исключением измерения кислорода в крови, ЭКГ (что появится в watchOS 7.1) и всегда включенного дисплея. Кроме того, здесь SoC предыдущего поколения — по оценке Apple, она на 20% медленнее
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./sololoop.png" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 3</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-              
-
-              
-
-
             </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./6.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 16 Pro 128 ГБ</h5>
+                      <p class="card-text">
+                        Apple iPhone 16 Pro предлагает всё, за что пользователи любят iPhone, вместе с улучшениями в каждом аспекте. Больше производительности, автономности и улучшений камеры, а ещё больше никаких компромиссов по возможностям, относительно версии Pro Max и новый размер экрана, обеспечивающий возможность с комфортом пользоваться всеми функциями</p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./8.jpeg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">iPhone 15 Pro 256 ГБ</h5>
+                      <p class="card-text">
+                        iPhone 15 Pro представляет собой воплощение эстетики и функциональности. Впервые рамка iPhone выполнена из титана, благодаря чему устройство является самым легким iPhone Pro в истории и способно выдерживать самые серьезные нагрузки.
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./3.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">AirPods Max 2024</h5>
+                      <p class="card-text">
+                        Полноразмерные беспроводные наушники AirPods Max оснастили улучшенной технологией активного шумоподавления. Устройство дает возможность сосредоточиться на музыке в шумных локациях. Для зарядки используется обновленный разъем USB Type-C.
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Apple 7</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Aspernatur provident doloremque, inventore velit
+                        repudiandae voluptate sapiente neque tempora deserunt
+                        voluptatum, praesentium debitis placeat, tempore dolor
+                        voluptatibus magni eveniet quisquam nisi?
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./sololoop.png" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Apple 8</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Aspernatur provident doloremque, inventore velit
+                        repudiandae voluptate sapiente neque tempora deserunt
+                        voluptatum, praesentium debitis placeat, tempore dolor
+                        voluptatibus magni eveniet quisquam nisi?
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="card card-product">
+                    <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Apple 9</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Aspernatur provident doloremque, inventore velit
+                        repudiandae voluptate sapiente neque tempora deserunt
+                        voluptatum, praesentium debitis placeat, tempore dolor
+                        voluptatibus magni eveniet quisquam nisi?
+                      </p>
+                      <a href="#" class="btn-product-ctg">Подробнее
+                        <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- конец каталога -->
+
+  <!-- отзывы покупателей -->
+  <section class="testimonial">
+    <h2 class="heading-testimonial">
+      Что говорят о<span class="styling"> нашем Магазине</span></h2>
+    <p class="para-testimonial">
+      Отзывы наших клиентов. Нам важно мнение каждого!
+    </p>
+
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 1"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+          </div>
+           <div class="corousel-item">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container container-clients">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 my-2">
+                    <div class="container-content">
+                      <div class="img-client">
+                        <img class="image-clients" src="./7882cde9741ad36c8b00c95cc77ef1e4.jpg" width="250px" alt="img" />
+                      </div>
+
+                      <div class="icons-stars">
+                        <ul class="rating">
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <h3 class="client-name"> Адам М</h3>
+                        <p class="para-client">Хочу поблагодарить компанию Apple-095 за качество продукции, а ее сотрудников - за компетентность, трудолюбие, достойный сервис и доброжелательность.
+                          В очередной раз приезжала в магазин за телефоном.Телефом довольна,
+                          вернусь ещё </p>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 my-2">
+                    <div class="container-content">
+                      <div class="img-client">
+                        <img class="image-clients" src="./profile-edited-free (carve.photos).png" width="250px" alt="img" />
+                      </div>
+
+                      <div class="icons-stars">
+                        <ul class="rating">
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          <li class="stars"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <h3 class="client-name">Ислам И</h3>
+                        <p class="para-client">Крутой магазин, качественные вещи, большой ассортимент и очень приятные консультанты! А ещё очень удобная услуга-доставки</p>
+                        
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+
+          </div>
+          <div class="corousel-item">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container container-clients">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 my-2">
+                      <div class="container-content">
+                        <div class="img-client">
+                          <img class="image-clients" src="./diploma (4).webp" width="250px" alt="img" />
+                        </div>
+  
+                        <div class="icons-stars">
+                          <ul class="rating">
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                          <h3 class="client-name"> Салахь М</h3>
+                          <p class="para-client">Доброжелательность и уважение к клиенту, задав вопрос всегда получишь развернутый ответ о товаре. Быстрая доставка заказа. Периодически возвращаюсь за очередным заказом, все устраивает</p>
+                          
+  
+                        </div>
+                      </div>
+                      
+                    </div>
+  
+                    <div class="col-lg-6 col-md-12 my-2">
+                      <div class="container-content">
+                        <div class="img-client">
+                          <img class="image-clients" src="./orig (1).webp" width="250px" alt="img" />
+                        </div>
+  
+                        <div class="icons-stars">
+                          <ul class="rating">
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                            <li class="stars"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                          <h3 class="client-name">Игорь Соболев</h3>
+                          <p class="para-client">Заказ пришел в указанный срок в целости и сохранности! Очень довольны товаром, пользуемся с удовольствием. Спасибо большое за сотрудничество.</p>
+                          
+  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+            
+
+          </div>
           </div>
           
         
         </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 4</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./sololoop.png" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 5</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 6</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-              
-
-              
-
-
-            </div>
-
-          </div>
-          
-          
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 7</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./sololoop.png" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 8</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-
-
-                <div class="card card-product">
-                  <img src="./Apple-Watch-Series-7_large.jpg" class="card-img-top img-card" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Apple 9</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident doloremque, inventore velit repudiandae voluptate sapiente neque tempora deserunt voluptatum, praesentium debitis placeat, tempore dolor voluptatibus magni eveniet quisquam nisi?</p>
-                    <a href="#" class="btn-product-ctg">Подробнее <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                  </div>
-                </div>
-              </div>
-              
-
-              
-
-
-            </div>
-
-          </div>
-          
-          
-        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    </div>
+    </h2>
+  </section>
+  <!-- конец блока с отзывами -->
+
+  <!-- связь с магазином -->
+
+  <section class="contact-form">
+    <h3 class="heading-contact">Cвязь с нами</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <form action="#" class="form-origin">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="mb-3">
+               
+                  <input type="text" class="form-control" placeholder="Имя*" id="exampleInputEmail1" aria-describedby="emailHelp" required maxlength="12">
+                
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="mb-3">
+               
+                  <input type="email" name="email" class="form-control input" placeholder="Email*" id="exampleInputEmail1" aria-describedby="emailHelp" minlength="6" title="Введите почту @" pattern= "^\S+@\S+.\S+$">
+              
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="mb-3">
+                    <textarea class="form-control" placeholder="напишите сообщение" id="exampleFormControlTextarea1"></textarea>
+              </div>
+            </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="mb-3 ">
+               <a role="button" href="#" class="btn-contact">Отправить</a>
+            </div>
+          </div>
+          </div>
+          </form>
+        </div>
+
+        <div class="col-l6-6 col-md-12">
+        <div class="content-contact">
+          <h2 class="heading-content">Подробнее о Aplle-<span>095</span></h2>
+          <p class="para-content">Добро пожаловать в наш интернет-магазин электроники и аксессуаров, где каждый найдет идеальное устройство для своих нужд. Мы предлагаем широкий ассортимент мобильных телефонов и аксессуаров Aplle!</p>
+          <p class="para-content">Каждый смартфон оборудован подробным описанием и техническими характеристиками, которые помогут вам сделать правильный выбор. Кроме того, магазин предлагает различные акции, скидки и специальные предложения.</p>
+        
+
+        </div>
+          
+        </div>
+
+      </div>
     </div>
 
+  </section>
+<!-- конец блока -->
+
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div>
+          <h3>Aplle-<span class="logo-text-end">095</span></h3>
+         
+        </div>
+      </div>
+      <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+        <div class="">
+          <h4 class="footer-text">Главное</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none">Каталог</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">О нас</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Аксессуары</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6">
+        <div>
+          <h4 class="footer-text">Сервис</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none">Обмен и Возврат</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Гарантия</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Каталог Дизайнов</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Доставка</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6">
+        <div>
+          <h4 class="footer-text">Адресс</h4>
+          <ul class="list-unstyled">
+            <li>
+              <p>+7(938)999-99-09</p>
+            </li>
+            <li>
+              <p><a class="text-decoration-none adres" href="#">Aplle_<span class="logo-text-end">095</span>@gmail.com</a>
+              </p>
+            </li>
+            <li>
+              <p>г.Грозный,"Беркат",   модуль 12, 2-ой этаж
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+    </div>
   </div>
-</section>
-<!-- конец каталога -->
-  
+</footer>
 
-
+ <!-- footer end -->
 </body>
 <!-- script -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src='https://kit.fontawesome.com/4c729db828.js' crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4c729db828.js" crossorigin="anonymous"></script>
 
 </html>
